@@ -1,4 +1,4 @@
-# Create a TicTacToe using Python and CLI
+# Create a TicTacToe CLI using Python
 
 You will practice:
 1. Python lists/arrays
