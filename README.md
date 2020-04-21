@@ -19,7 +19,8 @@ def new_game():
 
 1. There are two players `X` and `O`.
 2. `X` always starts playing.
-3. If `X` makes a play, it's `O`'s turn (automatically) and vice-versa.
+3. To make a play, the command its `play <position>` for example: `play 1` will play for the current player on the position 1 in the list (the second one)
+4. If `X` makes a play, it's `O`'s turn (automatically) and vice-versa.
 4. Every time aony player makes a play you have to check for winners.
 5. The game ends when any of the players finally makes a winning combination.
 6. The game can be reset (start again) any time.
