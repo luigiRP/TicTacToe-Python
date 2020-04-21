@@ -9,46 +9,32 @@ You will practice:
 
 ## 📝 Instructions
 
+Fill the content of the methods `play`, `check_for_winner`, `new_game` and the commands inside the while needed to make the TicTacToe behave like this picture.
 
+```python
+def play(position):
+def check_for_winner():
+def new_game():
+```
+
+1. There are two players `X` and `O`.
+2. `X` always starts playing.
+3. If `X` makes a play, it's `O`'s turn (automatically) and vice-versa.
+4. Every time aony player makes a play you have to check for winners.
+5. The game ends when any of the players finally makes a winning combination.
+6. The game can be reset (start again) any time.
+7. The user must stop the game and exit anytime (releasing the terminal).
 
 ## 💻 Installation
 
 1. Clone this repository: 
 
 ```sh
-$ git clone https://github.com/breatheco-de/todo-list-cli-with-cloud
+$ git clone https://github.com/breatheco-de/exercise-tictactoe-cli-python
 ```
 
-2. Install the dependecy packages by typing: 
+2. Run the app by typing on the terminal:
 
-```sh
-$ pipenv install --python 3
+```bash
+$ python3 app.py
 ```
-
-3. Get inside your virtual environment by typing: 
-
-```sh
-$ pipenv shell
-```
-
-4. You can run the project by typing: 
-
-```sh
-$ python src/app.py
-```
-5. You can also run the tests for the project: 
-
-```sh
-$ python src/test.py
-```
-
-## 📝 Instructions
-
-- You app needs to work from the the command line [like this](https://github.com/breatheco-de/todo-list-cli-with-cloud/blob/master/preview.gif).
-- The user should be able to add new tasks.
-- The user can add as many tasks as it wants.
-- The user can delete tasks by specifying the task position in the list.
-- The app must be able to save to todos to the cloud using [BreatheCode Todo's API](https://assets.breatheco.de/apis/fake/todos/)
-- The app must be able to download (load) the todo's from the [BreatheCode Todo's API](https://assets.breatheco.de/apis/fake/todos/)
-
-
